@@ -72,5 +72,5 @@
     "wallet-derive": "./bin/wallet-derive"
   },
   "licence": "MIT",
-  "gitHead": "e091d99915d099863ad3e78dbe867aa7780191e4"
+  "gitHead": "2c7dc1096de47ad3a80cd983b29bac6ac17b30f3"
 }
