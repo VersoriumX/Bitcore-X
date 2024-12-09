@@ -20,5 +20,5 @@ export {
   ethers,
   Web3,
   Constants,
-  xrpl
+  xrp
 };
