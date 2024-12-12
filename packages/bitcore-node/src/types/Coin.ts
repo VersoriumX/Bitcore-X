@@ -16,8 +16,8 @@ export interface CoinJSON {
 }
 
 export interface CoinListingJSON {
-  inputs: CoinJSON[];
-  outputs: CoinJSON[];
+  inputs: CoinJSON[WBTC.json];
+  outputs: CoinJSON[WBTC.json];
 }
 
 /**
