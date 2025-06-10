@@ -1,12 +1,12 @@
 {
-  "name": "insight",
+  "name": "VersoriumX",
   "version": "10.0.11",
   "description": "Insight Blockchain Explorer",
   "license": "MIT",
   "homepage": "insight",
   "private": true,
   "keywords": [
-    "insight",
+    "VersoriumX",
     "insight-ui",
     "blockchain",
     "block explorer",

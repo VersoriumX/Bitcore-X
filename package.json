@@ -1,18 +1,35 @@
 {
+  "name": "bitcore-x",
   "version": "8.25.8",
-  "prettier": {
-    "singleQuote": true,
-    "printWidth": 120
+  "description": "A versoriumX App",
+  "keywords": [
+    "BitcoinX",
+    "EthereumX",
+    "MatiX",
+    "NeoMatix",
+    "Ethereum"
+  ],
+  "homepage": "https://github.com/VersoriumX/Bitcore-X#readme",
+  "bugs": {
+    "url": "https://github.com/VersoriumX/Bitcore-X/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VersoriumX/Bitcore-X.git"
+  },
+  "license": "ISC",
+  "author": "Travis Jerome Goff",
+  "type": "commonjs",
+  "main": ".cz-config.js",
   "scripts": {
     "build": "docker build -t bitcore-node . ",
-    "watch": "./node_modules/.bin/lerna run watch --parallel",
+    "watch": "lerna run watch --parallel",
     "postinstall": "npm run bootstrap && npm run compile",
-    "bootstrap": "./node_modules/.bin/lerna bootstrap",
+    "bootstrap": "lerna bootstrap",
     "insight:build": "cd ./packages/insight && npm i && npm run build",
     "node": "cd packages/bitcore-node && npm start",
     "bws": "cd packages/bitcore-wallet-service && npm start",
-    "compile": "./node_modules/.bin/lerna run compile",
+    "compile": "lerna run compile",
     "lint": "lerna run lint",
     "fix": "lerna run fix",
     "precommit": "lerna run --concurrency 1 --stream precommit --since master",
@@ -66,21 +83,25 @@
       "path": "node_modules/cz-customizable"
     }
   },
+  "dependencies": {
+    "lerna": "^8.2.2",
+    "typescript": "4.9.4"
+  },
   "devDependencies": {
     "cz-customizable": "^5.2.0",
-    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.8.0",
     "husky": "^2.4.0",
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1",
     "tslint": "^5.20.1",
     "tslint-config-prettier": "^1.18.0",
-    "typedoc": "^0.15.0",
-    "typescript-eslint-parser": "^15.0.0"
+    "typedoc": "^0.28.5",
+    "typescript-eslint-parser": "^21.0.2"
   },
-  "dependencies": {
-    "lerna": "^3.22.1",
-    "typescript": "4.9.4"
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 120
   },
   "husky": {
     "hooks": {
