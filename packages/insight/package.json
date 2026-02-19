@@ -27,7 +27,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "1.8.1",
     "assert": "2.1.0",
-    "axios": "0.21.1",
+    "axios": "0.30.3",
     "bitcore-lib": "^10.0.23",
     "bitcore-lib-cash": "^10.0.23",
     "bitcore-lib-doge": "^10.0.21",
@@ -47,7 +47,7 @@
     "react-masonry-css": "1.0.16",
     "react-parallax": "3.3.0",
     "react-redux": "8.0.1",
-    "react-router-dom": "6.3.0",
+    "react-router-dom": "6.30.3",
     "react-scripts": "5.0.1",
     "redux": "4.2.0",
     "redux-thunk": "2.4.1",
